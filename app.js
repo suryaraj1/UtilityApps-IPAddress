@@ -44,8 +44,14 @@ const runAccordion = () => {
 runAccordion();
 
 // for the clipboard copying
-new ClipboardJS('.logo.copy-btn');
+new ClipboardJS('.icon1');
 
+tippy('.icon1', {
+  trigger: 'click',
+  content: 'copied'
+})
+
+// for scroll reveal
 const sr = ScrollReveal({
   origin: 'top',
   distance: '80px',

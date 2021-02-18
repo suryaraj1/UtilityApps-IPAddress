@@ -345,6 +345,8 @@ button {
 
   .wrapper .ip-wrapper {
     width: 350px;
+    position: relative;
+    left: 10px;
   }
 
   .ip-value {
